@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Day 5 Interactive UI</title>
+    <style>
+        /* 1. BADGE BACKGROUND */
+        body { 
+            font-family: sans-serif; 
+            /* Soft, professional background color */
+            background-color: #f4f4f4; 
+        }
+
+        /* 2. CONTAINER STYLING (Double-Lined Box & Centering) */
+        #container {
+            width: 80%; /* Sets the size of the box */
+            max-width: 600px;
+            
+            /* Centers the box horizontally on the page */
+            margin: 50px auto; 
+            
+            /* Double-lined border */
+            border: 5px double #0056b3; 
+            
+            /* Inner spacing and background */
+            padding: 30px; 
+            background-color: #ffffff;
+            text-align: center; /* Centers text and inline elements inside the box */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+        }
+
+        #status-display { 
+            margin-top: 20px; 
+            font-weight: bold; 
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="container">
+        <h2>DOM, Events, and Async Challenge</h2>
+        
+        <button id="action-button">Click to Start Process</button>
+        
+        <div id="status-display">Status: Ready</div>
+    </div>
+
+    <script src="day5.js"></script>
+</body>
+</html>
