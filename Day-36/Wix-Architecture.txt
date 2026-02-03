@@ -1,0 +1,11 @@
+# Day 36: Wix Ecosystem & Velo Overview
+
+## Key Learnings:
+- **Full-Stack Synergy:** Understood how the Wix Editor (UI), CMS (Database), and Velo (Logic) work as one system.
+- **Client vs Server:** Learned that `$w` code runs in the browser, while `.jsw` modules run on the Wix server.
+- **Dev Mode:** Successfully initialized the Velo IDE and explored the file structure.
+
+## Environment Status:
+- [x] Wix Account Created.
+- [x] Dev Mode Enabled.
+- [x] Familiarized with the Velo sidebar and Properties Panel.
